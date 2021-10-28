@@ -1,0 +1,30 @@
+.App{
+    background-color: #111;
+    min-height: 100vh;
+}
+
+.redButton{
+    background-color: #e50914;
+}
+
+.grayBotton{
+    background-color: lightgray;
+}
+
+.button{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.fullWidth{
+    width: 100%;
+}
+
+.mediumWidth{
+    width: 260px;
+}

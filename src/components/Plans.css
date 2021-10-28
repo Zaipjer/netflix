@@ -1,0 +1,15 @@
+.plans{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans button{
+    margin-bottom: 1rem;
+}
+
+.plans__standard{
+    font-size: 1.2rem !important;
+}

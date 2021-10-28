@@ -1,0 +1,63 @@
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-image: url(../images/HeroBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inicio__logo{
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.inicio__buttonSignin{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 15;
+}
+
+.inicio__info{
+    color: #fff;
+    z-index: 15;
+    text-align: center;
+}
+
+.inicio__info h3{
+    font-weight: 700;
+}
+
+.inicio__inputBlock{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.inicio__inputBlock > input[type=email]:focus{
+    outline: none;
+}
+
+.inicio__inputBlock > input[type=email]{
+    border: none;
+    z-index: 30;
+    background: #fff;
+    padding: 17px 0 17px 11px;
+    width: 50%;
+    border: none;
+}
+
+.inicio__inputBlock button{
+    padding: 10.5px 20px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}

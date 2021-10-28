@@ -1,0 +1,68 @@
+.profile {
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileTitle {
+    margin-left: 124px !important;
+}
+
+.profile__info {
+    width: 50%;
+    display: flex;
+}
+
+.profile__info img {
+    height: 100px;
+}
+
+.profile__infodetails {
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+.profile__infodetails h6 {
+    background-color: #aaa;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.profile__infodetailsplans {
+    width: 100%;
+}
+
+.plansText {
+    border-bottom: 1px solid lightgray;
+}
+
+@media (max-width: 600px) {
+    .profile__info img {
+        display: none;
+    }
+
+    .profile__info {
+        width: 80%;
+        display: flex;
+    }
+
+    .profile__infodetails {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .ProfileTitle {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .profile__info {
+        width: 70%;
+        display: flex;
+    }
+}
